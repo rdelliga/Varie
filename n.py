@@ -1,0 +1,11 @@
+line_ak4 = ROOT.TLine(math.pi * 0.4**2, 0., math.pi * 0.4**2, frame.GetMaximum())
+line_ak4.SetLineWidth(2)
+line_ak4.SetLineStyle(2)
+line_ak4.SetLineColor(ROOT.kGray)
+line_ak4.Draw()
+
+line_ak8 = ROOT.TLine(math.pi * 0.8**2, 0., math.pi * 0.8**2, frame.GetMaximum())
+line_ak8.SetLineWidth(2)
+line_ak8.SetLineStyle(2)
+line_ak8.SetLineColor(ROOT.kGray)
+line_ak8.Draw()
